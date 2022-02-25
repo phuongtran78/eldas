@@ -66,9 +66,10 @@ section {
 
 body {
     margin: 0;
-    /* font-family: "Urbanist", sans-serif; */
-    /* font-family: 'Noto Sans JP', sans-serif; */
-    font-family: 'Noto Sans Display', sans-serif;
+    /* font-family: 'Noto Sans Display', sans-serif; */
+    font-family: 'Gotu', sans-serif;
+    /* font-family: 'Fahkwang', sans-serif; */
+    /* font-family: 'Be Vietnam Pro', sans-serif; */
     font-size: 0.9375rem;
     font-weight: 500;
     line-height: 1.6;
@@ -4098,7 +4099,7 @@ input[type="button"].btn-block {
 }
 
 .btn-group.show .dropdown-toggle {
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(209, 50, 50, 0.125);
 }
 
 .btn-group.show .dropdown-toggle.btn-link {
@@ -5371,12 +5372,12 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #000;
+    color: #FFF;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    color: rgba(0, 0, 0, 0.7);
+    color: #FFF;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -5387,7 +5388,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-    color: rgba(0, 0, 0, 0.9);
+    color: #FFF;
 }
 
 
@@ -7005,9 +7006,10 @@ a.close.disabled {
     z-index: 1070;
     display: block;
     margin: 0;
-    /* font-family: "Urbanist", sans-serif; */
-    /* font-family: 'Noto Sans JP', sans-serif; */
-    font-family: 'Noto Sans Display', sans-serif;
+    /* font-family: 'Noto Sans Display', sans-serif; */
+    font-family: 'Gotu', sans-serif;
+    /* font-family: 'Fahkwang', sans-serif; */
+    /* font-family: 'Be Vietnam Pro', sans-serif; */
     font-style: normal;
     font-weight: 500;
     line-height: 1.6;
@@ -7132,9 +7134,10 @@ a.close.disabled {
     z-index: 1060;
     display: block;
     max-width: 276px;
-    /* font-family: "Urbanist", sans-serif; */
-    /* font-family: 'Noto Sans JP', sans-serif; */
-    font-family: 'Noto Sans Display', sans-serif;
+    /* font-family: 'Noto Sans Display', sans-serif; */
+    font-family: 'Gotu', sans-serif;
+    /* font-family: 'Fahkwang', sans-serif; */
+    /* font-family: 'Be Vietnam Pro', sans-serif; */
     font-style: normal;
     font-weight: 500;
     line-height: 1.6;
@@ -20562,8 +20565,16 @@ div.container-xl {
     padding-right: 15px;
 }
 
+div.container-xll {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 @media screen and (min-width: 1200px) {
     div.container-xl {
+        max-width: 95%;
+    }
+    div.container-xll {
         max-width: 95%;
     }
 }
@@ -20571,6 +20582,9 @@ div.container-xl {
 @media screen and (min-width: 1440px) {
     div.container-xl {
         max-width: 1440px;
+    }
+    div.container-xll {
+        max-width: 1200px;
     }
 }
 
@@ -20711,7 +20725,7 @@ a.hover-white:focus {
 }
 
 .bg-hover-primary:hover {
-    background-color: #4E7661 !important;
+    background-color: #CB2535 !important;
 }
 
 .bg-hover-secondary:hover {
@@ -21672,7 +21686,7 @@ input.checkbox-primary[type="checkbox"] {
 
 .navbar-light .sticky .sticky-area {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #387a58;
 }
 
 .navbar-dark .nav-search {
@@ -21791,7 +21805,7 @@ input.checkbox-primary[type="checkbox"] {
     left: 0;
     bottom: -2px;
     height: 1px;
-    background-color: #000;
+    background-color: #FFF;
     transition: width 0.5s;
 }
 
@@ -21850,7 +21864,7 @@ input.checkbox-primary[type="checkbox"] {
         background-color: #fff !important;
     }
     .main-header .sticky .nav-search {
-        color: #000 !important;
+        color: #FFF !important;
     }
     .main-header .sticky .main-menu {
         max-height: 500px;
@@ -21912,7 +21926,7 @@ input.checkbox-primary[type="checkbox"] {
 }
 
 .navbar-light-sticky .nav-search {
-    color: #000 !important;
+    color: #fff !important;
 }
 
 .header-02 .main-menu .nav-item {

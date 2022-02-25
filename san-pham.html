@@ -16,7 +16,10 @@
     <!-- Vendors CSS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="vendors/fontawesome-pro-5/css/all.css">
     <link rel="stylesheet" href="vendors/bootstrap-select/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="vendors/slick/slick.min.css">
@@ -50,22 +53,40 @@
                 <p class="mb-0 fs-16 font-weight-600 text-white text-center">FREESHIP cho tất cả đơn hàng trên 200K <i class="fas fa-badge-percent"></i></p>
             </div>
         </div>
-        <div class="sticky-area bg-white">
+        <div style="background-color: #387a58;" class="sticky-area">
             <div class="container container-xxl">
                 <nav class="navbar navbar-expand-xl px-0 d-block">
-                    <div class="d-none d-xl-block">
+                    <div class="d-none d-xl-block ">
                         <div class="d-flex align-items-center flex-nowrap">
-                            <div class="w-50">
+                            <div class="w-50 d-flex align-items-center">
+                                <a href="#search-popup" data-gtf-mfp="true" data-mfp-options='{"type":"inline","focus": "#keyword","mainClass": "mfp-search-form mfp-move-from-top mfp-align-top"}' class="nav-search d-flex align-items-center pr-3 mr-auto text-white">
+                                    <svg class="icon icon-magnifying-glass-light fs-28">
+                      <use xlink:href="#icon-magnifying-glass-light"></use>
+                    </svg>
+                                    <span class="d-none d-xl-inline-block ml-2">Tìm kiếm</span>
+                                </a>
                                 <ul class="navbar-nav hover-menu main-menu px-0 mx-xl-n5">
                                     <li aria-haspopup="true" aria-expanded="false" class="nav-item dropdown-item-home dropdown py-2 py-xl-7 px-0 px-xl-5">
                                         <a class="nav-link p-0" href="./">Trang Chủ<span class="caret"></span></a>
                                     </li>
-                                    <li aria-haspopup="true" aria-expanded="false" class="nav-item dropdown-item-home dropdown py-2 py-xl-7 px-0 px-xl-5 show-active">
+                                    <li aria-haspopup="true" aria-expanded="false" class="nav-item dropdown-item-home dropdown py-2 py-xl-7 px-0 px-xl-5">
                                         <a class="nav-link p-0" href="san-pham.html">Sản Phẩm<span class="caret"></span></a>
                                     </li>
                                     <li aria-haspopup="true" aria-expanded="false" class="nav-item dropdown-item-home dropdown py-2 py-xl-7 px-0 px-xl-5">
-                                        <a class="nav-link p-0" href="ve-chung-toi.html" title="ve chung toi">Về Chúng Tôi<span class="caret"></span></a>
+                                        <a class="nav-link p-0" href="ve-chung-toi.html">Về Chúng Tôi<span class="caret"></span></a>
                                     </li>
+                                </ul>
+                            </div>
+                            <div class="mx-auto flex-shrink-0 position-static">
+                                <div class="d-flex mt-3 mt-xl-0 align-items-center w-100 justify-content-center">
+                                    <a class="navbar-brand mx-4 mx-xxl-10 d-none d-xl-inline-block" href="index.html">
+                                        <img class="logo-size" src="images/logo-black.png" alt="ELDAS" class="normal-logo">
+                                        <!-- <img class="logo-size" src="images/logo-black.png" alt="ELDAS" class="sticky-logo"> -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="w-50 d-flex align-items-center justify-content-between">
+                                <ul class="navbar-nav hover-menu main-menu px-0 mx-xl-n5">
                                     <li aria-haspopup="true" aria-expanded="false" class="nav-item dropdown-item-home dropdown py-2 py-xl-7 px-0 px-xl-5">
                                         <a class="nav-link p-0" href="lien-he.html">Liên Hệ<span class="caret"></span></a>
                                     </li>
@@ -73,64 +94,49 @@
                                         <a class="nav-link p-0" href="blog.html">BLOG<span class="caret"></span></a>
                                     </li>
                                 </ul>
-                            </div>
-                            <div class="mx-auto flex-shrink-0 px-10">
-                                <div class="d-flex mt-3 mt-xl-0 align-items-center w-100 justify-content-center">
-                                    <a class="navbar-brand mx-auto d-inline-block py-0" href="./">
-                                        <img class="logo-size" src="images/logo-black.png" alt="Hari">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="w-50">
-                                <div class="d-flex align-items-center justify-content-end">
-                                    <a href="#search-popup" data-gtf-mfp="true" data-mfp-options='{"type":"inline","focus": "#keyword","mainClass": "mfp-search-form mfp-move-from-top mfp-align-top"}' class="nav-search d-flex align-items-center pr-3">
-                                        <svg class="icon icon-magnifying-glass-light fs-28">
-                        <use xlink:href="#icon-magnifying-glass-light"></use>
-                      </svg>
-                                    </a>
-                                    <ul class="navbar-nav flex-row justify-content-xl-end d-flex flex-wrap text-body py-0 navbar-right">
-                                        <li class="nav-item">
-                                            <a class="nav-link pr-3 py-0" href="#" data-toggle="modal">
-                                                <svg class="icon icon-user-light">
-                            <use xlink:href="#icon-user-light"></use>
-                          </svg>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link position-relative px-4 py-0" href="#">
-                                                <svg class="icon icon-star-light">
-                            <use xlink:href="#icon-star-light"></use>
-                          </svg>
-                                                <span class="position-absolute number">0</span></a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link position-relative px-4 menu-cart py-0 d-inline-flex align-items-center mr-n2" href="#" data-canvas="true" data-canvas-options='{"container":".cart-canvas"}'>
-                                                <span class="mr-2 font-weight-bold fs-15">$0.00</span>
-                                                <svg class="icon icon-shopping-bag-open-light">
-                            <use xlink:href="#icon-shopping-bag-open-light"></use>
-                          </svg>
-                                                <span class="position-absolute number">0</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <ul class="navbar-nav flex-row justify-content-xl-end d-flex flex-wrap text-body py-0 navbar-right">
+                                    <li class="nav-item">
+                                        <a class="nav-link pr-3 py-0" href="#" data-toggle="modal" data-target="#sign-in">
+                                            <svg class="icon icon-user-light">
+                          <use xlink:href="#icon-user-light"></use>
+                        </svg>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link position-relative px-4 py-0" href="#">
+                                            <svg class="icon icon-star-light">
+                          <use xlink:href="#icon-star-light"></use>
+                        </svg>
+                                            <span class="position-absolute number">0</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link position-relative px-4 menu-cart py-0 d-inline-flex align-items-center mr-n2" href="#" data-canvas="true" data-canvas-options='{"container":".cart-canvas"}'>
+                                            <span class="mr-2 font-weight-bold fs-15">$0.00</span>
+                                            <svg class="icon icon-shopping-bag-open-light">
+                          <use xlink:href="#icon-shopping-bag-open-light"></use>
+                        </svg>
+                                            <span class="position-absolute number">0</span>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center d-xl-none">
+                    <div class="d-flex align-items-center d-xl-none ">
                         <button class="navbar-toggler border-0 px-0 canvas-toggle" type="button" data-canvas="true" data-canvas-options='{"width":"250px","container":".sidenav"}'>
                 <span class="fs-24 toggle-icon"></span>
               </button>
                         <div class="mx-auto">
-                            <a class="navbar-brand d-inline-block mr-0 py-5" href="./">
-                                <img class="logo-size" src="images/logo-black.png" alt="Hari">
+                            <a class="navbar-brand d-inline-block mr-0 py-5" href="index.html">
+                                <img class="logo-size" src="images/logo-black.png" alt="ELDAS" class="normal-logo">
+                                <!-- <img class="logo-size" src="images/logo-black.png" alt="ELDAS" class="sticky-logo"> -->
                             </a>
                         </div>
                         <a href="#search-popup" data-gtf-mfp="true" data-mfp-options='{"type":"inline","focus": "#keyword","mainClass": "mfp-search-form mfp-move-from-top mfp-align-top"}' class="nav-search d-flex align-items-center">
                             <svg class="icon icon-magnifying-glass-light fs-28">
                   <use xlink:href="#icon-magnifying-glass-light"></use>
                 </svg>
-                            <span class="d-none d-xl-inline-block ml-2 font-weight-500">Search</span></a>
+                            <span class="d-none d-xl-inline-block ml-2 font-weight-500">Tìm kiếm</span></a>
                     </div>
                 </nav>
             </div>
@@ -150,10 +156,10 @@
             </div>
         </section>
         <section>
-            <div class="container container-xl">
+            <div class="container container-xll">
                 <h2 class="text-center mt-9 mb-8">Bộ Mỹ Phẩm Hari Spa Cao Cấp</h2>
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
-                    <p class="fs-18 font-weight-500 my-lg-0 my-2" style="color: #696969;">Chúng tôi có <strong class="font-weight-bold text-secondary">4</strong> sản phẩm cao cấp dành cho bạn!</p>
+                    <p class="fs-18 font-weight-500 my-lg-0 my-2" style="color: #696969;">Chúng tôi có <strong class="font-weight-bold text-secondary">5</strong> sản phẩm cao cấp dành cho bạn!</p>
                     <div class="d-flex align-items-center">
 
                         <div class="dropdown show lh-1 rounded ml-lg-5 ml-0" style="background-color:#f5f5f5">
@@ -177,7 +183,7 @@
             </div>
         </section>
         <section id="filter" class="collapse" style="box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);">
-            <div class="container container-xl pt-9 pb-12">
+            <div class="container container-xll pt-9 pb-12">
                 <div class="row">
                     <div class="col">
                         <ul class="list-unstyled">
@@ -316,32 +322,32 @@
             </div>
         </section>
         <section class="mt-7">
-            <div class="container container-xl">
+            <div class="container container-xll">
                 <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
+                    <div class="col-xl-4 col-lg-4 col-md-6 product-mobile">
                         <div class="card border-0 product mb-6" data-animate="fadeInUp">
                             <div class="position-relative">
-                                <img src="images/kem-chong-nang-nano-collagen.png" alt="Kem Chống Nắng Nano Collagen">
+                                <img src="https://cf.shopee.vn/file/1c4abbc5aaf5fb098a065bbd1b95690b" alt="Sữa Tắm Tinh Dầu Tràm Trà ELDAS">
                                 <div class="card-img-overlay d-flex p-3 flex-column">
                                     <div class="w-100 content-change-horizontal d-flex justify-content-center mt-auto">
-                                        <a href="kem-chong-nang-nano-collagen.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
+                                        <a href="sua-tam-tinh-dau-tram-tra-eldas.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
                                             <svg class="icon icon-shopping-bag-open-light fs-24">
                           <use xlink:href="#icon-shopping-bag-open-light"></use>
                         </svg>
                                         </a>
-                                        <a href="kem-chong-nang-nano-collagen.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
+                                        <a href="sua-tam-tinh-dau-tram-tra-eldas.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
                                             <span data-toggle="modal" data-target="#quick-view">
                           <svg class="icon icon-eye-light fs-24">
                             <use xlink:href="#icon-eye-light"></use>
                           </svg>
                         </span>
                                         </a>
-                                        <a href="kem-chong-nang-nano-collagen.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
+                                        <a href="sua-tam-tinh-dau-tram-tra-eldas.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
                                             <svg class="icon icon-star-light fs-24">
                           <use xlink:href="#icon-star-light"></use>
                         </svg>
                                         </a>
-                                        <a href="kem-chong-nang-nano-collagen.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
+                                        <a href="sua-tam-tinh-dau-tram-tra-eldas.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
                                             <svg class="icon icon-arrows-left-right-light fs-24">
                           <use xlink:href="#icon-arrows-left-right-light"></use>
                         </svg>
@@ -354,24 +360,24 @@
                                     <span class="fs-13 font-weight-500 text-decoration-through text-body">300.000Đ</span>
                                     <span>280.000Đ</span>
                                 </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="kem-chong-nang-nano-collagen.html">Kem Chống Nắng Nano Collagen</a></h2>
+                                <h2 class="card-title fs-15 font-weight-600 mb-2"><a href="sua-tam-tinh-dau-tram-tra-eldas.html">Sữa Tắm Tinh Dầu Tràm Trà ELDAS</a></h2>
                                 <div class="d-flex align-items-center justify-content-center flex-wrap">
                                     <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
                                     </ul>
                                     <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
+                    <div class="col-xl-4 col-lg-4 col-md-6 product-mobile">
                         <div class="card border-0 product mb-6" data-animate="fadeInUp">
                             <div class="position-relative">
-                                <img src="images/tay-te-bao-chet-hari.png" alt="Tẩy Tế Bào Chết Hari">
+                                <img src="https://cf.shopee.vn/file/06cc9ae838b5d02f93e1777ed751a415" alt="Sữa Rửa Mặt Da Mụn nhạy Cảm ELDAS">
                                 <div class="card-img-overlay d-flex p-3 flex-column">
                                     <div>
                                     </div>
@@ -406,24 +412,24 @@
                                     <span class="fs-13 font-weight-500 text-decoration-through text-body">190.000Đ</span>
                                     <span>170.000Đ</span>
                                 </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="tay-te-bao-chet-hari.html">Tẩy Tế Bào Chết Hari</a></h2>
+                                <h2 class="card-title fs-15 font-weight-600 mb-2"><a href="tay-te-bao-chet-hari.html">Sữa Rửa Mặt Da Mụn nhạy Cảm ELDAS</a></h2>
                                 <div class="d-flex align-items-center justify-content-center flex-wrap">
                                     <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
                                     </ul>
                                     <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
+                    <div class="col-xl-4 col-lg-4 col-md-6 product-mobile">
                         <div class="card border-0 product mb-6" data-animate="fadeInUp">
                             <div class="position-relative">
-                                <img src="images/serum-anti-acnes-thao-duoc.png" alt="Serum Anti Acnes Thảo Dược">
+                                <img src="https://cf.shopee.vn/file/1de584da8122cea8f1f71cef991cf81b" alt="Nước Tẩy Trang Làm Sạch Chuyên Sâu ELDAS">
                                 <div class="card-img-overlay d-flex p-3 flex-column">
                                     <div>
                                         <span class="badge badge-warning">Mới</span>
@@ -459,24 +465,24 @@
                                     <span class="fs-13 font-weight-500 text-decoration-through text-body">240.000Đ</span>
                                     <span>220.000Đ</span>
                                 </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="serum-anti-acnes-thao-duoc.html">Serum Anti Acnes Thảo Dược</a></h2>
+                                <h2 class="card-title fs-15 font-weight-600 mb-2"><a href="serum-anti-acnes-thao-duoc.html">Nước Tẩy Trang Làm Sạch Chuyên Sâu ELDAS</a></h2>
                                 <div class="d-flex align-items-center justify-content-center flex-wrap">
                                     <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
                                     </ul>
                                     <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
+                    <div class="col-xl-4 col-lg-4 col-md-6 product-mobile">
                         <div class="card border-0 product mb-6" data-animate="fadeInUp">
                             <div class="position-relative">
-                                <img src="images/serum-cang-bong-min-da.png" alt="Serum Căng Bóng Mịn Da">
+                                <img src="https://cf.shopee.vn/file/ff7d5039577d94c1f881c7b352a2ffb8" alt="Combo Sữa Tắm Sạch Khuẩn Và Sữa Rửa Mặt ELDAS">
                                 <div class="card-img-overlay d-flex p-3 flex-column">
 
                                     <div class="w-100 content-change-horizontal d-flex justify-content-center mt-auto">
@@ -510,70 +516,45 @@
                                     <span class="fs-13 font-weight-500 text-decoration-through text-body">340.000Đ</span>
                                     <span>320.000Đ</span>
                                 </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="serum-cang-bong-min-da.html">Serum Căng Bóng Mịn Da</a></h2>
+                                <h2 class="card-title fs-15 font-weight-600 mb-2"><a href="serum-cang-bong-min-da.html">Combo Sữa Tắm Sạch Khuẩn Và Sữa Rửa Mặt ELDAS</a></h2>
                                 <div class="d-flex align-items-center justify-content-center flex-wrap">
                                     <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
                                     </ul>
                                     <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="container container-xl mb-7">
-                        <h2 class="text-center mt-9 mb-8">Bộ Mỹ Phẩm Chăm Sóc Toàn Diện Hari</h2>
-                        <div class="d-flex justify-content-between align-items-center flex-wrap">
-                            <p class="fs-18 font-weight-500 my-lg-0 my-2" style="color: #696969;">Chúng tôi có <strong class="font-weight-bold text-secondary">7</strong> sản phẩm cao cấp dành cho bạn!</p>
-                            <div class="d-flex align-items-center">
-
-                                <div class="dropdown show lh-1 rounded ml-lg-5 ml-0" style="background-color:#f5f5f5">
-                                    <a href="#" class="dropdown-toggle custom-dropdown-toggle text-decoration-none text-secondary p-3 mw-210 position-relative d-block" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Mặc định
-                            </a>
-                                    <div class="dropdown-menu custom-dropdown-item" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Giá giảm dần</a>
-                                        <a class="dropdown-item" href="#">Giá cao dần</a>
-                                        <a class="dropdown-item" href="#">Nổi bật</a>
-                                    </div>
-                                </div>
-                                <button class="btn btn-secondary bg-hover-primary border-hover-primary px-5 box-shadow-none ml-4 d-lg-block d-none" data-toggle="collapse" data-target="#filter" aria-expanded="false" aria-controls="filter">
-                            <svg class="icon icon-SlidersHorizontal fs-24 mr-2">
-                              <use xlink:href="#icon-SlidersHorizontal"></use>
-                            </svg>
-                            Lọc
-                          </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
+                    <div class="col-xl-4 col-lg-4 col-md-6 product-mobile">
                         <div class="card border-0 product mb-6" data-animate="fadeInUp">
                             <div class="position-relative">
-                                <img src="images/hari-body-whitening-lotion-collagen.png" alt="Hari Body Whitening Lotion Collagen">
+                                <img src="https://cf.shopee.vn/file/da404cea16a7e742f0a228f8a9447d68" alt="Combo Nước Tẩy Trang ELDAS Và Sữa Rửa Mặt ELDAS">
                                 <div class="card-img-overlay d-flex p-3 flex-column">
 
                                     <div class="w-100 content-change-horizontal d-flex justify-content-center mt-auto">
-                                        <a href="hari-body-whitening-lotion-collagen.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
+                                        <a href="serum-cang-bong-min-da.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
                                             <svg class="icon icon-shopping-bag-open-light fs-24">
                           <use xlink:href="#icon-shopping-bag-open-light"></use>
                         </svg>
                                         </a>
-                                        <a href="hari-body-whitening-lotion-collagen.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
+                                        <a href="serum-cang-bong-min-da.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
                                             <span data-toggle="modal" data-target="#quick-view">
                           <svg class="icon icon-eye-light fs-24">
                             <use xlink:href="#icon-eye-light"></use>
                           </svg>
                         </span>
                                         </a>
-                                        <a href="hari-body-whitening-lotion-collagen.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
+                                        <a href="serum-cang-bong-min-da.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
                                             <svg class="icon icon-star-light fs-24">
                           <use xlink:href="#icon-star-light"></use>
                         </svg>
                                         </a>
-                                        <a href="hari-body-whitening-lotion-collagen.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
+                                        <a href="serum-cang-bong-min-da.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
                                             <svg class="icon icon-arrows-left-right-light fs-24">
                           <use xlink:href="#icon-arrows-left-right-light"></use>
                         </svg>
@@ -583,342 +564,31 @@
                             </div>
                             <div class="card-body pt-4 text-center px-0">
                                 <p class="card-text font-weight-bold fs-16 mb-1 text-secondary">
-                                    <span class="fs-13 font-weight-500 text-decoration-through text-body">179.000đ</span>
-                                    <span>159.000đ</span>
+                                    <span class="fs-13 font-weight-500 text-decoration-through text-body">340.000Đ</span>
+                                    <span>320.000Đ</span>
                                 </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="hari-body-whitening-lotion-collagen.html">Hari Body Whitening Lotion Collagen</a></h2>
+                                <h2 class="card-title fs-15 font-weight-600 mb-2"><a href="serum-cang-bong-min-da.html">Combo Nước Tẩy Trang ELDAS Và Sữa Rửa Mặt ELDAS</a></h2>
                                 <div class="d-flex align-items-center justify-content-center flex-wrap">
                                     <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
+                                        <li class="list-inline-item fs-12 text-warning mr-0"><i class="fas fa-star"></i></li>
                                     </ul>
                                     <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
+                    <div class="col-xl-4 col-lg-4 col-md-6 product-mobile">
                         <div class="card border-0 product mb-6" data-animate="fadeInUp">
                             <div class="position-relative">
-                                <img src="images/hari-sua-tam-duong-da-truyen-trang.png" alt="Hari Sữa Tắm Dưỡng Da Truyền Trắng">
-                                <div class="card-img-overlay d-flex p-3 flex-column">
-                                    <div>
-                                    </div>
-                                    <div class="w-100 content-change-horizontal d-flex justify-content-center mt-auto">
-                                        <a href="hari-sua-tam-duong-da-truyen-trang.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-shopping-bag-open-light fs-24">
-                          <use xlink:href="#icon-shopping-bag-open-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="hari-sua-tam-duong-da-truyen-trang.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
-                                            <span data-toggle="modal" data-target="#quick-view">
-                          <svg class="icon icon-eye-light fs-24">
-                            <use xlink:href="#icon-eye-light"></use>
-                          </svg>
-                        </span>
-                                        </a>
-                                        <a href="hari-sua-tam-duong-da-truyen-trang.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-star-light fs-24">
-                          <use xlink:href="#icon-star-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="hari-sua-tam-duong-da-truyen-trang.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
-                                            <svg class="icon icon-arrows-left-right-light fs-24">
-                          <use xlink:href="#icon-arrows-left-right-light"></use>
-                        </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body pt-4 text-center px-0">
-                                <p class="card-text font-weight-bold fs-16 mb-1 text-secondary">
-                                    <span class="fs-13 font-weight-500 text-decoration-through text-body">199.000Đ</span>
-                                    <span>179.000Đ</span>
-                                </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="hari-sua-tam-duong-da-truyen-trang.html">Hari Sữa Tắm Dưỡng Da Truyền Trắng</a></h2>
-                                <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                    <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
-                                </div>
+                                <img src="images/hari-coming-soon.png" alt="ELDAS Coming Soon">
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
-                        <div class="card border-0 product mb-6" data-animate="fadeInUp">
-                            <div class="position-relative">
-                                <img src="images/collagen-face-mask.png" alt="Collagen Face Mask">
-                                <div class="card-img-overlay d-flex p-3 flex-column">
-                                    <div>
-                                    </div>
-                                    <div class="w-100 content-change-horizontal d-flex justify-content-center mt-auto">
-                                        <a href="collagen-face-mask.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-shopping-bag-open-light fs-24">
-                          <use xlink:href="#icon-shopping-bag-open-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="collagen-face-mask.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
-                                            <span data-toggle="modal" data-target="#quick-view">
-                          <svg class="icon icon-eye-light fs-24">
-                            <use xlink:href="#icon-eye-light"></use>
-                          </svg>
-                        </span>
-                                        </a>
-                                        <a href="collagen-face-mask.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-star-light fs-24">
-                          <use xlink:href="#icon-star-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="collagen-face-mask.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
-                                            <svg class="icon icon-arrows-left-right-light fs-24">
-                          <use xlink:href="#icon-arrows-left-right-light"></use>
-                        </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body pt-4 text-center px-0">
-                                <p class="card-text font-weight-bold fs-16 mb-1 text-secondary">
-                                    <span class="fs-13 font-weight-500 text-decoration-through text-body">110.000Đ</span>
-                                    <span>90.000Đ</span>
-                                </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="collagen-face-mask.html">Collagen Face Mask</a></h2>
-                                <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                    <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
-                        <div class="card border-0 product mb-6" data-animate="fadeInUp">
-                            <div class="position-relative">
-                                <img src="images/melasma-face-cream.png" alt="Melasma Face Cream">
-                                <div class="card-img-overlay d-flex p-3 flex-column">
 
-                                    <div class="w-100 content-change-horizontal d-flex justify-content-center mt-auto">
-                                        <a href="melasma-face-cream.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-shopping-bag-open-light fs-24">
-                          <use xlink:href="#icon-shopping-bag-open-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="melasma-face-cream.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
-                                            <span data-toggle="modal" data-target="#quick-view">
-                          <svg class="icon icon-eye-light fs-24">
-                            <use xlink:href="#icon-eye-light"></use>
-                          </svg>
-                        </span>
-                                        </a>
-                                        <a href="melasma-face-cream.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-star-light fs-24">
-                          <use xlink:href="#icon-star-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="melasma-face-cream.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
-                                            <svg class="icon icon-arrows-left-right-light fs-24">
-                          <use xlink:href="#icon-arrows-left-right-light"></use>
-                        </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body pt-4 text-center px-0">
-                                <p class="card-text font-weight-bold fs-16 mb-1 text-secondary">
-                                    <span class="fs-13 font-weight-500 text-decoration-through text-body">260.000Đ</span>
-                                    <span>240.000Đ</span>
-                                </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="melasma-face-cream.html">Melasma Face Cream</a></h2>
-                                <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                    <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
-                        <div class="card border-0 product mb-6" data-animate="fadeInUp">
-                            <div class="position-relative">
-                                <img src="images/acnes-face-cream.png" alt="Acnes Face Cream">
-                                <div class="card-img-overlay d-flex p-3 flex-column">
-
-                                    <div class="w-100 content-change-horizontal d-flex justify-content-center mt-auto">
-                                        <a href="acnes-face-cream.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-shopping-bag-open-light fs-24">
-                          <use xlink:href="#icon-shopping-bag-open-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="acnes-face-cream.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
-                                            <span data-toggle="modal" data-target="#quick-view">
-                          <svg class="icon icon-eye-light fs-24">
-                            <use xlink:href="#icon-eye-light"></use>
-                          </svg>
-                        </span>
-                                        </a>
-                                        <a href="acnes-face-cream.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-star-light fs-24">
-                          <use xlink:href="#icon-star-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="acnes-face-cream.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
-                                            <svg class="icon icon-arrows-left-right-light fs-24">
-                          <use xlink:href="#icon-arrows-left-right-light"></use>
-                        </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body pt-4 text-center px-0">
-                                <p class="card-text font-weight-bold fs-16 mb-1 text-secondary">
-                                    <span class="fs-13 font-weight-500 text-decoration-through text-body">200.000Đ</span>
-                                    <span>180.000Đ</span>
-                                </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="acnes-face-cream.html">Acnes Face Cream</a></h2>
-                                <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                    <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
-                        <div class="card border-0 product mb-6" data-animate="fadeInUp">
-                            <div class="position-relative">
-                                <img src="images/hari-white-face-cream.png" alt="Hari White Face Cream">
-                                <div class="card-img-overlay d-flex p-3 flex-column">
-                                    <div>
-                                    </div>
-                                    <div class="w-100 content-change-horizontal d-flex justify-content-center mt-auto">
-                                        <a href="hari-white-face-cream.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-shopping-bag-open-light fs-24">
-                          <use xlink:href="#icon-shopping-bag-open-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="hari-white-face-cream.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
-                                            <span data-toggle="modal" data-target="#quick-view">
-                          <svg class="icon icon-eye-light fs-24">
-                            <use xlink:href="#icon-eye-light"></use>
-                          </svg>
-                        </span>
-                                        </a>
-                                        <a href="hari-white-face-cream.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-star-light fs-24">
-                          <use xlink:href="#icon-star-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="hari-white-face-cream.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
-                                            <svg class="icon icon-arrows-left-right-light fs-24">
-                          <use xlink:href="#icon-arrows-left-right-light"></use>
-                        </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body pt-4 text-center px-0">
-                                <p class="card-text font-weight-bold fs-16 mb-1 text-secondary">
-                                    <span class="fs-13 font-weight-500 text-decoration-through text-body">240.000Đ</span>
-                                    <span>220.000Đ</span>
-                                </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="hari-white-face-cream.html">Hari White Face Cream</a></h2>
-                                <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                    <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
-                        <div class="card border-0 product mb-6" data-animate="fadeInUp">
-                            <div class="position-relative">
-                                <img src="images/hari-anti-acnes.png" alt="Hari Anti Acnes">
-                                <div class="card-img-overlay d-flex p-3 flex-column">
-                                    <div>
-                                    </div>
-                                    <div class="w-100 content-change-horizontal d-flex justify-content-center mt-auto">
-                                        <a href="hari-anti-acnes.html" data-toggle="tooltip" data-placement="top" title="View products" class="add-to-cart d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-shopping-bag-open-light fs-24">
-                          <use xlink:href="#icon-shopping-bag-open-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="hari-anti-acnes.html" data-toggle="tooltip" data-placement="top" title="Quick view" class="d-md-flex align-items-center justify-content-center cursor-pointer text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mb-2 d-none">
-                                            <span data-toggle="modal" data-target="#quick-view">
-                          <svg class="icon icon-eye-light fs-24">
-                            <use xlink:href="#icon-eye-light"></use>
-                          </svg>
-                        </span>
-                                        </a>
-                                        <a href="hari-anti-acnes.html" data-toggle="tooltip" data-placement="top" title="Add to wishlist" class="add-to-wishlist d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle mr-2">
-                                            <svg class="icon icon-star-light fs-24">
-                          <use xlink:href="#icon-star-light"></use>
-                        </svg>
-                                        </a>
-                                        <a href="hari-anti-acnes.html" data-toggle="tooltip" data-placement="top" title="Compare" class="add-to-compare d-flex align-items-center justify-content-center text-secondary bg-white hover-white bg-hover-secondary w-48px h-48px rounded-circle">
-                                            <svg class="icon icon-arrows-left-right-light fs-24">
-                          <use xlink:href="#icon-arrows-left-right-light"></use>
-                        </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-body pt-4 text-center px-0">
-                                <p class="card-text font-weight-bold fs-16 mb-1 text-secondary">
-                                    <span class="fs-13 font-weight-500 text-decoration-through text-body">190.000Đ</span>
-                                    <span>170.000Đ</span>
-                                </p>
-                                <h2 class="card-title fs-15 font-weight-500 mb-2"><a href="hari-anti-acnes.html">Hari Anti Acnes</a></h2>
-                                <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                    <ul class="list-inline mb-0 lh-1">
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                        <li class="list-inline-item fs-12 text-primary mr-0"><i class="fas fa-star"></i></li>
-                                    </ul>
-                                    <span class="card-text fs-14 font-weight-400 pl-2 lh-1">344+ đánh giá</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6 product-mobile">
-                        <div class="card border-0 product mb-6" data-animate="fadeInUp">
-                            <div class="position-relative">
-                                <img src="images/hari-coming-soon.png" alt="Hari Coming Soon">
-
-                            </div>
-
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

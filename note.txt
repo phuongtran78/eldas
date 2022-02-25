@@ -1,0 +1,37 @@
+<-- FONT WEB -->
+
+- F chính.
+Be Vietnam Pro:
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+font-family: 'Be Vietnam Pro', sans-serif;
+
+Fahkwang:
+<link href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+font-family: 'Fahkwang', sans-serif;
+
+Gotu:
+<link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
+font-family: 'Gotu', sans-serif;
+
+- F nhỏ.
+Barlow Condensed:
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+font-family: 'Barlow Condensed', sans-serif;
+
+- F nhấn.
+Corinthia:
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
+font-family: 'Corinthia', cursive;
+
+Meow Script:
+<link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+font-family: 'Meow Script', cursive;
+
+Oooh Baby:
+<link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+font-family: 'Oooh Baby', cursive;
+
+
+<-- GHI CHÚ -->
+
+line:21797 - gạch chân hover menu
