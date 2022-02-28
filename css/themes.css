@@ -16163,7 +16163,7 @@ button.bg-white:focus {
 }
 
 .logo-size {
-    max-width: 120px;
+    max-width: 150px;
     height: auto;
 }
 
@@ -16446,6 +16446,22 @@ a.text-white:focus {
 
 .custom-font {
     font-family: "Tuesday Night" !important;
+}
+
+.custom-font-2 {
+    font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+.custom-font-3 {
+    font-family: 'Corinthia', cursive !important;
+}
+
+.custom-font-4 {
+    font-family: 'Meow Script', cursive !important;
+}
+
+.custom-font-5 {
+    font-family: 'Oooh Baby', cursive !important;
 }
 
 .fs-0 {
@@ -17854,6 +17870,12 @@ a.text-white:focus {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.bg-footer {
+    background-repeat: round;
+    background-size: cover;
+    background-position: inherit;
 }
 
 .bg-img-cover-center {
@@ -22127,11 +22149,12 @@ input.checkbox-primary[type="checkbox"] {
     opacity: 1;
 }
 
-.mfp-move-from-top {
-    /* start state */
-    /* animate in */
-    /* animate out */
-}
+
+/* .mfp-move-from-top {
+    start state
+    animate in
+    animate out
+} */
 
 .mfp-move-from-top .mfp-with-anim {
     opacity: 0;
