@@ -16162,6 +16162,9 @@ button.bg-white:focus {
     }
 }
 
+
+/* custom code */
+
 .logo-size {
     max-width: 150px;
     height: auto;
@@ -16185,6 +16188,20 @@ button.bg-white:focus {
     height: 100%;
     width: 100%;
     position: absolute;
+}
+
+.ingredients-more {
+    display: flex;
+    margin-bottom: 1.125rem;
+}
+
+.ingredients-more-detail {
+    width: 14rem;
+    margin-right: 4rem;
+}
+
+.hide-li {
+    list-style-type: none;
 }
 
 .fade-slider {
@@ -23110,7 +23127,7 @@ input.checkbox-primary[type="checkbox"] {
 }
 
 .nav-pills .nav-link {
-    color: #bebebe;
+    color: #8a9096;
 }
 
 .nav-pills .nav-link.active {
