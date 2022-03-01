@@ -16320,7 +16320,7 @@ a.text-light:focus {
 }
 
 .text-dark {
-    color: #343a40 !important;
+    color: #4c4c4c !important;
 }
 
 a.text-dark:hover,
@@ -16487,6 +16487,10 @@ a.text-white:focus {
 
 .custom-font-5 {
     font-family: 'Oooh Baby', cursive !important;
+}
+
+.custom-font-6 {
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
 .fs-0 {
@@ -21909,10 +21913,10 @@ input.checkbox-primary[type="checkbox"] {
         background-color: #fff;
     }
     .main-header .sticky .sticky-area {
-        background-color: #fff !important;
+        background-color: #387a58 !important;
     }
     .main-header .sticky .nav-search {
-        color: #FFF !important;
+        color: #fff !important;
     }
     .main-header .sticky .main-menu {
         max-height: 500px;
@@ -21942,7 +21946,7 @@ input.checkbox-primary[type="checkbox"] {
     }
     .main-header .sticky .navbar-nav>.nav-item>.nav-link,
     .main-header .sticky .navbar-toggler {
-        color: #000;
+        color: #fff;
     }
 }
 
