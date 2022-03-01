@@ -16204,6 +16204,14 @@ button.bg-white:focus {
     list-style-type: none;
 }
 
+.animation-1 {
+    transition-duration: 0.6s;
+}
+
+.animation-2 {
+    transition-duration: 1s;
+}
+
 .fade-slider {
     opacity: 0;
 }
@@ -20933,6 +20941,7 @@ a.bg-hover-white:focus {
 
 .border-hover-danger:hover {
     border-color: #dc3545 !important;
+    transition-duration: 0.5s;
 }
 
 .border-hover-light:hover {
