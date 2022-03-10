@@ -5401,7 +5401,7 @@ input[type="button"].btn-block {
 } line bottom menu*/
 
 .navbar-light .navbar-toggler {
-    color: #000;
+    color: #FFF;
     border-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -22511,6 +22511,49 @@ input.checkbox-primary[type="checkbox"] {
     }
     .product-mobile {
         width: 50%;
+    }
+    .fs-56 {
+        font-size: 42px !important;
+    }
+    .fs-48 {
+        font-size: 38px !important;
+    }
+    .fs-44 {
+        font-size: 38px !important;
+    }
+    .pt-6,
+    .py-6 {
+        padding-top: 0.875rem !important;
+    }
+    .bullet-one-page-scroll-navigation {
+        right: 20px;
+    }
+    /* home reponsive */
+    #section-01 .container .row .col-xl-5 .fs-56 {
+        padding-top: 50px;
+    }
+    #section-01 .container .row .pb-6 {
+        padding-bottom: 2.875rem !important;
+    }
+    #section-02 {
+        background-position: inherit !important;
+    }
+    #section-02 .container .row .col-xl-5 .text-primary {
+        color: #fff !important;
+        text-shadow: 1px 1px 20px #343a40;
+    }
+    #section-02 .container .row .col-xl-5 .fs-36 {
+        font-size: 32px !important;
+    }
+    #section-02 .container .row .col-xl-5 .pb-6 a {
+        color: #FFF !important;
+        text-shadow: 1px 1px 20px #343a40;
+    }
+    #section-03 {
+        background-position: right !important;
+    }
+    #section-03 .container .row .col-xl-5 .fs-44 {
+        font-size: 38px !important;
     }
 }
 
