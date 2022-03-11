@@ -22536,7 +22536,6 @@ input.checkbox-primary[type="checkbox"] {
         padding-bottom: 2.875rem !important;
     }
     #section-02 {
-        /* background-position: inherit !important; */
         background-image: url('../images/scroll-navigation-02-mobile-optimized.jpg') !important;
     }
     #section-03 {
@@ -22548,6 +22547,16 @@ input.checkbox-primary[type="checkbox"] {
     #section-02 .container .row .col-xl-5 .text-primary {
         color: #fff !important;
         text-shadow: 1px 1px 20px #343a40;
+    }
+    #section-03 .container .row .col-xl-5 .text-light {
+        color: #4E7661 !important;
+        text-shadow: 1px 1px 3px #ebfefc;
+    }
+    #section-03 .container .row .col-xl-5 .text-white {
+        color: #343a40 !important;
+    }
+    #section-04 .container .row .col-xl-5 .text-primary {
+        text-shadow: 1px 1px 3px #ebfefc;
     }
     #section-02 .container .row .col-xl-5 .fs-36 {
         font-size: 32px !important;
