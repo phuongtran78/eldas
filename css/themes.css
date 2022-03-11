@@ -22536,7 +22536,14 @@ input.checkbox-primary[type="checkbox"] {
         padding-bottom: 2.875rem !important;
     }
     #section-02 {
-        background-position: inherit !important;
+        /* background-position: inherit !important; */
+        background-image: url('../images/scroll-navigation-02-mobile-optimized.jpg') !important;
+    }
+    #section-03 {
+        background-image: url('../images/scroll-navigation-03-mobile.jpg') !important;
+    }
+    #section-04 {
+        background-image: url('../images/scroll-navigation-04-mobile.jpg') !important;
     }
     #section-02 .container .row .col-xl-5 .text-primary {
         color: #fff !important;
@@ -22549,9 +22556,9 @@ input.checkbox-primary[type="checkbox"] {
         color: #FFF !important;
         text-shadow: 1px 1px 20px #343a40;
     }
-    #section-03 {
+    /* #section-03 {
         background-position: right !important;
-    }
+    } */
     #section-03 .container .row .col-xl-5 .fs-44 {
         font-size: 38px !important;
     }
