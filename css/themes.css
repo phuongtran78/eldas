@@ -22510,7 +22510,7 @@ input.checkbox-primary[type="checkbox"] {
         background-repeat: no-repeat;
     }
     .product-mobile {
-        width: 50%;
+        width: 50% !important;
     }
     .fs-56 {
         font-size: 42px !important;
@@ -22570,6 +22570,15 @@ input.checkbox-primary[type="checkbox"] {
     } */
     #section-03 .container .row .col-xl-5 .fs-44 {
         font-size: 38px !important;
+    }
+    .hide-footer {
+        display: none;
+    }
+    /* .half-footer {
+        width: calc(100%/2) !important;
+    } */
+    .footer .container .row .half-footer {
+        max-width: 50% !important;
     }
 }
 
