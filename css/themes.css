@@ -16165,6 +16165,10 @@ button.bg-white:focus {
 
 /* custom code */
 
+.text-white-border {
+    text-shadow: 1px 1px 6px #706560 !important;
+}
+
 .logo-size {
     max-width: 150px;
     height: auto;
@@ -17445,6 +17449,10 @@ a.text-white:focus {
 
 .lh-225 {
     line-height: 2.25 !important;
+}
+
+.lh-25 {
+    line-height: 2.5 !important;
 }
 
 .border-0 {
@@ -22535,6 +22543,9 @@ input.checkbox-primary[type="checkbox"] {
     #section-01 .container .row .pb-6 {
         padding-bottom: 2.875rem !important;
     }
+    #section-01 {
+        background-image: url('../images/scroll-navigation-01-mobile.jpg') !important;
+    }
     #section-02 {
         background-image: url('../images/scroll-navigation-02-mobile-optimized.jpg') !important;
     }
@@ -22579,6 +22590,9 @@ input.checkbox-primary[type="checkbox"] {
     } */
     .footer .container .row .half-footer {
         max-width: 50% !important;
+    }
+    .lh-25 {
+        line-height: normal !important;
     }
 }
 
